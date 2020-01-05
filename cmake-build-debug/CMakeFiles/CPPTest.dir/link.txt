@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o  -o CPPTest 

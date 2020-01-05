@@ -1,0 +1,3 @@
+/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles/CPPTest.dir
+/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles/edit_cache.dir
