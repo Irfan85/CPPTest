@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa100.cpp">
+		<Unit filename="/media/irfan/Projects and Researches/CLionProjects/CPPTest/Exercises/BookStore.cpp">
 			<Option target="CPPTest"/>
 		</Unit>
 		<Unit filename="/media/irfan/Projects and Researches/CLionProjects/CPPTest/CMakeLists.txt">

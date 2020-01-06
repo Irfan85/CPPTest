@@ -57,27 +57,27 @@ include CMakeFiles/CPPTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPPTest.dir/flags.make
 
-CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o: CMakeFiles/CPPTest.dir/flags.make
-CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o: ../UVa/UVa100.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o -c "/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa100.cpp"
+CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o: CMakeFiles/CPPTest.dir/flags.make
+CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o: ../Exercises/BookStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o -c "/media/irfan/Projects and Researches/CLionProjects/CPPTest/Exercises/BookStore.cpp"
 
-CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa100.cpp" > CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.i
+CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/irfan/Projects and Researches/CLionProjects/CPPTest/Exercises/BookStore.cpp" > CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.i
 
-CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa100.cpp" -o CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.s
+CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/irfan/Projects and Researches/CLionProjects/CPPTest/Exercises/BookStore.cpp" -o CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.s
 
 # Object files for target CPPTest
 CPPTest_OBJECTS = \
-"CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o"
+"CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o"
 
 # External object files for target CPPTest
 CPPTest_EXTERNAL_OBJECTS =
 
-CPPTest: CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o
+CPPTest: CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o
 CPPTest: CMakeFiles/CPPTest.dir/build.make
 CPPTest: CMakeFiles/CPPTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CPPTest"

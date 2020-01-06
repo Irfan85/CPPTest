@@ -123,32 +123,32 @@ CPPTest/fast:
 	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/build
 .PHONY : CPPTest/fast
 
-UVa/UVa100.o: UVa/UVa100.cpp.o
+Exercises/BookStore.o: Exercises/BookStore.cpp.o
 
-.PHONY : UVa/UVa100.o
+.PHONY : Exercises/BookStore.o
 
 # target to build an object file
-UVa/UVa100.cpp.o:
-	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.o
-.PHONY : UVa/UVa100.cpp.o
+Exercises/BookStore.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o
+.PHONY : Exercises/BookStore.cpp.o
 
-UVa/UVa100.i: UVa/UVa100.cpp.i
+Exercises/BookStore.i: Exercises/BookStore.cpp.i
 
-.PHONY : UVa/UVa100.i
+.PHONY : Exercises/BookStore.i
 
 # target to preprocess a source file
-UVa/UVa100.cpp.i:
-	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.i
-.PHONY : UVa/UVa100.cpp.i
+Exercises/BookStore.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.i
+.PHONY : Exercises/BookStore.cpp.i
 
-UVa/UVa100.s: UVa/UVa100.cpp.s
+Exercises/BookStore.s: Exercises/BookStore.cpp.s
 
-.PHONY : UVa/UVa100.s
+.PHONY : Exercises/BookStore.s
 
 # target to generate assembly for a file
-UVa/UVa100.cpp.s:
-	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/UVa/UVa100.cpp.s
-.PHONY : UVa/UVa100.cpp.s
+Exercises/BookStore.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPTest.dir/build.make CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.s
+.PHONY : Exercises/BookStore.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CPPTest"
 	@echo "... edit_cache"
-	@echo "... UVa/UVa100.o"
-	@echo "... UVa/UVa100.i"
-	@echo "... UVa/UVa100.s"
+	@echo "... Exercises/BookStore.o"
+	@echo "... Exercises/BookStore.i"
+	@echo "... Exercises/BookStore.s"
 .PHONY : help
 
 
