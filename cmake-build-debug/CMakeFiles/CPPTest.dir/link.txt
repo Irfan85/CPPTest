@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/CPPTest.dir/Exercises/BookStore.cpp.o  -o CPPTest 
+/usr/bin/c++  -g   CMakeFiles/CPPTest.dir/UVa/UVa101.cpp.o  -o CPPTest 

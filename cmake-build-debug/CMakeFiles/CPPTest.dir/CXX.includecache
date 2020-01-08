@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/media/irfan/Projects and Researches/CLionProjects/CPPTest/Exercises/BookStore.cpp
+/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa101.cpp
 iostream
+-
+vector
 -
 string
 -
-vector
+algorithm
 -
 
