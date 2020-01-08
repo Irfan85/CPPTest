@@ -53,7 +53,7 @@ void returnToInitialPosition(vector<vector<int>> *parent, vector<int> *onTopElem
     }
 }
 
-void pile(vector<vector<int>> *blocks, int a, int *aLocation, int b, int *bLocation) {
+void pile(vector<vector<int>> *blocks, int *aLocation, int *bLocation) {
     vector<int> toBePiled = blocks->at(aLocation[0]);
 
     // Only selecting 'a' and elements on top of 'a' from the stack and pushing them on top of the stack containing 'b'
@@ -143,7 +143,7 @@ void pileOnto(vector<vector<int>> *blocks, int a, int b) {
     getLocation(a, blocks, aLocation);
     getLocation(b, blocks, bLocation);
 
-    pile(blocks, a, aLocation, b, bLocation);
+    pile(blocks, aLocation, bLocation);
 }
 
 void pileOver(vector<vector<int>> *blocks, int a, int b) {
@@ -152,7 +152,7 @@ void pileOver(vector<vector<int>> *blocks, int a, int b) {
     int bLocation[2];
     getLocation(b, blocks, bLocation);
 
-    pile(blocks, a, aLocation, b, bLocation);
+    pile(blocks, aLocation, bLocation);
 }
 
 bool isValidInput(int a, int b, vector<vector<int>> *blocks) {
