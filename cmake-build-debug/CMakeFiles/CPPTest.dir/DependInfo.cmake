@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa101.cpp" "/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles/CPPTest.dir/UVa/UVa101.cpp.o"
+  "/media/irfan/Projects and Researches/CLionProjects/CPPTest/URI/2698.cpp" "/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CMakeFiles/CPPTest.dir/URI/2698.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

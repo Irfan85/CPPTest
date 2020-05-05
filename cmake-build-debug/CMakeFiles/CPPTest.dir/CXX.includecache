@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa101.cpp
-iostream
--
-vector
--
-string
--
-algorithm
+/media/irfan/Projects and Researches/CLionProjects/CPPTest/URI/2698.cpp
+bits/stdc++.h
 -
 

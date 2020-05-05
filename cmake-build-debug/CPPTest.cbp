@@ -27,6 +27,16 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="CPPTest">
 				<Option output="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug/CPPTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug"/>
@@ -73,18 +83,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/media/irfan/Projects and Researches/CLionProjects/CPPTest/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/irfan/Projects\ and\ Researches/CLionProjects/CPPTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
-		<Unit filename="/media/irfan/Projects and Researches/CLionProjects/CPPTest/UVa/UVa101.cpp">
+		<Unit filename="/media/irfan/Projects and Researches/CLionProjects/CPPTest/URI/2698.cpp">
 			<Option target="CPPTest"/>
 		</Unit>
 		<Unit filename="/media/irfan/Projects and Researches/CLionProjects/CPPTest/CMakeLists.txt">
